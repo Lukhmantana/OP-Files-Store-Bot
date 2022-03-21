@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
                     ],
                     [
                         InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/TORRENTzv2")
-                        InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
+                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/TORRENTZ_MOVIE")
                     ]
                 ]
             )        
