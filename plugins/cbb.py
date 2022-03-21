@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>╭━━━━━━━━━━━━━━━➣\n┣⪼ Creator : <a href='tg://user?id={OWNER_ID}'>@lukhman_jr</a>\n┣⪼ ᴄʜᴀɴɴᴇʟ : Python3\n┣⪼ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┣⪼ Source Code : <a href='https://lukhman_jr'>Click here</a>\n┣⪼ Channel : <a href='sorry bro</a>\n┣⪼ YouTube Channel : <a href='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'>Opus Techz</a>\n╰━━━━━━━━━━━━━━━➣</b>",
+            text = f"<b>╭━━━━━━━━━━━━━━━➣\n┣⪼ Creator : <a href='tg://user?id={OWNER_ID}'>@lukhman_jr</a>\n┣⪼ ᴄʜᴀɴɴᴇʟ : Python3\n┣⪼ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┣⪼ Source Code : <a href='https://lukhman_jr'>Click here</a>\n┣⪼ Channel : <a href='https://t.me/MOLLYWO</a>\n┣⪼ YouTube Channel : <a href='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'>Opus Techz</a>\n╰━━━━━━━━━━━━━━━➣</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
