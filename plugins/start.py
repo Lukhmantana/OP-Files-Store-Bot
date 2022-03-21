@@ -57,7 +57,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("𝙰𝙲𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙵𝙸𝙻𝙴𝚂...!")
+        temp_msg = await message.reply("ᴘʀᴏᴄᴇssɪɴɢ ꜰɪʟᴇs🙌🏻...!")
         try:
             messages = await get_messages(client, ids)
         except:
