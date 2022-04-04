@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
                         InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
                         InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
                     ]
-                        
+                )       
             )  
         await message.reply_photo(
             photo = START_IMG,
