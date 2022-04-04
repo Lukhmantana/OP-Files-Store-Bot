@@ -96,8 +96,8 @@ async def start_command(client: Client, message: Message):
                         InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
                         InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
                     ]
-                ]
-            )        
+                        InlineKeyboardButton("CHANNEL"'url="https://t.me/TORRENTTZ_MOVIE")
+            )  
         await message.reply_photo(
             photo = START_IMG,
             caption = START_MSG.format(
